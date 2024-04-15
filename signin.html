@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container">
+    <h1 class="signup-heading">Welcome Back</h1>
+    <form action="goal.html" name="myForm"  onsubmit="return validate()">
+       
+        <input class="form-input" id="js-email" type="email" placeholder="Email" required>
+        <input class="form-input" id="js-password" type="password" placeholder="Password" required><img class="password-image" src="images/eye-off.png" alt="password">
+        <span> <a href="">Forgot your password?</a></span>
+        
+        <button class="create-button sign-button" >Sign In</button>
+        <div class="or-div-container">
+            <div></div>
+            <span>or</span>
+            <div></div>
+        </div>
+        <div class="login-media-container">
+            <div><img src="images/google.png" alt="google-image"></div>            
+            <div><img src="images/facebook.png" alt="facebook-image"></div>
+        </div>
+        <p class="login-container">Don’t have an account yet? <a href="signup.html">Create an account</a></p>
+    </form>
+  
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/cs;s2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:box-model;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: black;
+}
+.main-container{
+    width:415px;
+    height:840px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+
+    
+}
+.skip-button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color:#9FB2FF;
+    font-size:16px;
+    position: absolute;
+    top:18px;
+    right:16px;
+    background: transparent;
+    border:none;
+    outline: 0;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+img{
+    Width:282px;
+    Height:282px;  
+    
+}
+
+.image-container{
+    margin-top:40px;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+h2{
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color:#2C2B2B;
+    padding:8px;
+    margin:9px;
+    width: 160px;
+    height: 24px;
+
+
+}
+
+.paragraph-container{
+    width: 343px;
+    height: 60px;
+    padding:8px;
+    margin:8px;
+
+}
+p{  
+    font-family:"Montserrat";
+    font-size:20px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    color:#787878;
+  
+    
+}
+
+
+
+.nextbutton{  
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 96px;
+    left: 320px;
+
+}
+
+.signup-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    margin:68px 0px 0px 16px;
+    padding:10px;
+}
+
+
+.form-input{  
+    width:330px;
+    height:20px;
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color:#7F7F7F;
+    background-color:#F1F1F1;
+    border-radius:12px;
+    padding:18px 20px;
+    margin:16px; 
+    border:none;
+    outline:0;
+}
+
+form div{
+    display:flex;
+    align-items: center;
+  
+}
+
+.form-checkbox{
+    height:22px;
+    width:22px;
+    padding:18px 20px;
+    margin:16px; 
+}
+
+form div span{
+    font-family:"Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+
+}
+
+form div span a{
+    color:#7B91FF
+}
+
+.create-button{
+    width:90%; 
+    height:50px;
+    font-family:"Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin:90px 16px 20px 16px;;
+    border-radius:12px;
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    color:white;
+    border:none;
+    outline:0;
+
+}
+
+.create-button a:link{
+    text-decoration: none;
+}
+
+.or-div-container div{
+    width:40%;
+    height:1px;
+    background-color:black;
+    margin:10px 16px;
+      
+}
+
+.or-div-container span{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size:16px;
+
+}
+
+.login-media-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.login-media-container div{
+    height:44px;
+    width:44px;
+    border:1px solid #7F7F7F;
+    border-radius:8px;
+    margin:16px 10px 0px 10px;
+
+}
+
+.login-media-container img{
+    height:18px;
+    width:16px;
+    padding:13px;
+    object-fit:none;
+}
+
+.login-container{    
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color:black;
+    margin:30px;
+
+} 
+
+
+.login-container a{
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    color:#9FB2FF;
+    
+}
+
+.password-image{
+    width: 16px;
+    height:16px;
+    position: absolute;
+    top:235px;
+    right:40px;
+
+}
+
+form span a{
+    margin:21px;
+    color:#787878;
+}
+
+.sign-button{
+    margin-top:300px;
+}
+
+.goal-container-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin:60px 16px;
+    padding:10px;
+    color:#2C2B2B;
+
+    
+
+}
+
+.goal-container{
+    display:flex;
+    justify-content:space-between;
+    width:330px;
+    height:20px;
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color:#7F7F7F;
+    background-color:#F1F1F1;
+    border-radius:12px;
+    padding:18px 20px;
+    margin:16px; 
+    border:none;
+    outline:0;
+    
+
+}
+
+
+.navigation-heading{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-image{
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 16px;
+    padding: 6px 7px 6px 8px;    
+    border-radius: 3px 0px 0px 0px;
+    margin:68px 0px 0px 16px;
+    
+
+}
+
+.workout-tracker-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    flex:1;
+    margin:8px 0px 0px -30px;
+
+}
+
+.chart-text{
+    font-family: Montserrat;
+    font-size: 11.2px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin:60px 0px 0px 0px;
+
+}
+
+.chart-text span{
+    margin-left:66px;
+}
+
+.chart-image{
+    width:343px;
+    height:90px;
+    margin-left:22px;
+    margin-top:5px;
+}
+
+.frame-image{
+    width: 329x;
+    height: 50px;
+    border-radius:10px;
+    margin:24px 16px;
+
+}
+
+.workout-notification{
+    display: flex;
+    justify-content: space-between;
+    margin:24px 16px;
+ 
+}
+
+
+.span1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;  
+
+}
+
+.span2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #7F7F7F;    
+
+}
+
+.workout-scheduler{
+    display: flex;
+    margin:16px;
+    justify-content: space-between;
+    align-items: center;
+    border:none;
+    box-shadow: -4px 8px 25px -8px #00000026;
+    background-color: white;
+    border-radius:12px;
+    padding:8px;
+
+}
+
+.workout-scheduler-image{
+    width: 50px;
+    height: 50px;
+
+}
+.workout-toggler-image{
+    width: 40px;
+    height: 20px;
+}
+.workout-scheduler-paragraph{
+    margin-left:-110px;
+
+}
+
+#para1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:black;
+    margin-left:-50px;
+
+}
+
+#span1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color:#7F7F7F;
+    margin-left: -50px;
+}
+
+
+
+
+.workout-paragraph{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin:20px 16px 16px 16px;
+    color:black;
+
+    
+
+}
+
+
+.tracking-contianer{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:16px;
+    border:none;
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    border-top-left-radius:12px;
+    border-top-right-radius: 12px;
+    padding:8px;
+    position: relative;
+    overflow:hidden;
+    width:365px;
+    height:80px;
+    
+}
+
+
+.tracking-contianer-image{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:35px;
+    right: 16px;
+}
+
+.tracking-contianer-pararaph p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color:black;
+
+
+}
+
+.tracking-contianer-search-image{
+    width: 63px;
+    height: 63px; 
+    position: absolute;  
+    margin-top:-42px;
+    margin-left:165px; 
+    background: transparent;
+    border:none;
+    border-radius: 100%;
+    /* background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%); */
+
+}
+.bar-image{
+    width: 335px;
+    height: 30px;
+    margin:20px 39px;
+
+}
+
+.bottom-bar-image-container{
+    width: 100%;
+    background-color: white;
+    margin-top:-16px;
+}
+
+
+.workout-schedule-heading{
+    display:flex;
+    align-items: center;
+    margin:68px 0px 0px 16px;
+}
+
+.workout-schedule-image{
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 16px;
+    padding: 6px 7px 6px 8px;    
+    border-radius: 3px 0px 0px 0px;
+}
+
+.workout-schedule{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    flex:1;
+    margin-left:-40px;
+}
+
+.date-container{
+    text-align: center;
+    margin-top:14px;
+}
+
+.date-container span{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+  
+
+}
+.date-image{
+    width: 5px;
+    height: 8px;    
+}
+
+
+.calendar-contianer{
+    width: 365px;
+    height: 76px;
+    margin:16px 14px;
+}
+
+.para-contianer{
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left:18px;
+    color:black;
+    padding:7px;
+}
+.border-container{
+    width:100%;
+    border:1px solid black;
+    margin-top:6px;
+    
+}
+
+.container{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 625px;
+    left: 320px;
+    background: linear-gradient(90.95deg, #E9B1E0 0.79%, #D3A5F2 99.18%);   
+    border-radius: 50%;    
+    color: white;
+    font-size: 20px;
+    border:none;
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.container-notes{
+    background: linear-gradient(90.95deg, #E9B1E0 0.79%, #D3A5F2 99.18%);  
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+    padding:20px;
+    margin:10px;
+    position: absolute;
+    top: 625px;
+    left: 520px;
+    border-radius: 25px; 
+    display:none; 
+ 
+
+}
+
+.container-notes textarea{
+    border:none;
+    padding:18px;
+    border-radius: 25px;
+    outline:0;
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container-notes input{
+    font-size:20px;
+    border-radius: 25px;
+    padding:8px;
+    border: none;
+   
+}
+
+.container-notes button{
+    font-size:20px;
+    border-radius: 25px;
+    padding:8px;
+    border: none;
+    width: 100px;
+    background-color:#DEE5FF;
+}
+
+.new-para{
+    width: 250px;
+    height: 20px;
+    background: linear-gradient(90.95deg, #E9B1E0 0.79%, #D3A5F2 99.18%);       
+    color: white;
+    font-size: 15px;
+    border:none;
+    border-radius: 25px;
+    margin-left:130px;
+    padding-top:2px;
+    padding-left:5px;
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+}

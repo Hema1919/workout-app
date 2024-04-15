@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container">
+    <h1 class="signup-heading">Create an account</h1>
+    <form action="goal.html" name="myForm" onsubmit="return signinValidate()">
+        <input class="form-input" id="js-name" type="text" required placeholder="First Name" name="first-name">     
+        <input class="form-input" id="js-lastname" type="text"required placeholder="Last Name" name="second-name" >
+        <input class="form-input" id="js-email" type="email" required placeholder="Email" required>
+        <input class="form-input" id="js-password" type="password" required placeholder="Password" required>
+        <div>
+            <input class="form-checkbox" type="checkbox" required> 
+            <span>By proceeding,I agree to all<a href="#">T&c</a>and<a href="#">Privacy Policy</a></span>
+        </div>
+        <button class="create-button">Create an Account</button>
+        <div class="or-div-container">
+            <div></div>
+            <span>or</span>
+            <div></div>
+        </div>
+        <div class="login-media-container">
+            <div><img src="images/google.png" alt="google-image"></div>            
+            <div><img src="images/facebook.png" alt="facebook-image"></div>
+        </div>
+        <p class="login-container">Already have an account? <a href="signin.html">Login</a></p>
+
+    </form>
+  
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
